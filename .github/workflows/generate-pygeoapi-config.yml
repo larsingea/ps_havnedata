@@ -9,7 +9,7 @@ on:
     inputs:
       config_file:
         description: YAML-fil i `config/` med `xmi_url` og `output_filename`
-        default: admenheter.yml
+        default: havnedata.yml
         required: true
 
 jobs:
