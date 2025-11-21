@@ -1,0 +1,896 @@
+resources:
+  avfallspunkt:
+    type: collection
+    title: 'Avfallspunkt'
+    description: 'Avfallspunkt'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: avfallspunkt
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  avfallstype:
+    type: collection
+    title: 'Avfallstype'
+    description: 'Avfallstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: avfallstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  avloepstype:
+    type: collection
+    title: 'Avløpstype'
+    description: 'Avløpstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: avloepstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  avsperringstype:
+    type: collection
+    title: 'Avsperringstype'
+    description: 'Avsperringstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: avsperringstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  beholdertype:
+    type: collection
+    title: 'Beholdertype'
+    description: 'Beholdertype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: beholdertype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  beredskapspunkt:
+    type: collection
+    title: 'Beredskapspunkt'
+    description: 'Beredskapspunkt'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: beredskapspunkt
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  beredskapstype:
+    type: collection
+    title: 'Beredskapstype'
+    description: 'Beredskapstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: beredskapstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  bruksklassetype:
+    type: collection
+    title: 'Bruksklassetype'
+    description: 'Bruksklassetype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: bruksklassetype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  datafangstmetode:
+    type: collection
+    title: 'Datafangstmetode'
+    description: 'Datafangstmetode'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: datafangstmetode
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  drivstofftilkobling:
+    type: collection
+    title: 'Drivstofftilkobling'
+    description: 'Drivstofftilkobling'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: drivstofftilkobling
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  drivstofftype:
+    type: collection
+    title: 'Drivstofftype'
+    description: 'Drivstofftype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: drivstofftype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  earootclass:
+    type: collection
+    title: 'EARootClass'
+    description: 'EARootClass'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: earootclass
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  elanleggstype:
+    type: collection
+    title: 'ELanleggstype'
+    description: 'ELanleggstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: elanleggstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  elkobling:
+    type: collection
+    title: 'ELkobling'
+    description: 'ELkobling'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: elkobling
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  elkoblingegenskaper:
+    type: collection
+    title: 'ELkoblingEgenskaper'
+    description: 'ELkoblingEgenskaper'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: elkoblingegenskaper
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  eierskap:
+    type: collection
+    title: 'Eierskap'
+    description: 'Eierskap'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: eierskap
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  energikilde:
+    type: collection
+    title: 'Energikilde'
+    description: 'Energikilde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: energikilde
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fartsrestriksjoner:
+    type: collection
+    title: 'Fartsrestriksjoner'
+    description: 'Fartsrestriksjoner'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fartsrestriksjoner
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fartsrestriksjonergrense:
+    type: collection
+    title: 'FartsrestriksjonerGrense'
+    description: 'FartsrestriksjonerGrense'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fartsrestriksjonergrense
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fartoeytype:
+    type: collection
+    title: 'Fartøytype'
+    description: 'Fartøytype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fartoeytype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fender:
+    type: collection
+    title: 'Fender'
+    description: 'Fender'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fender
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fenderorientering:
+    type: collection
+    title: 'Fenderorientering'
+    description: 'Fenderorientering'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fenderorientering
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fendertype:
+    type: collection
+    title: 'Fendertype'
+    description: 'Fendertype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fendertype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  flytedokk:
+    type: collection
+    title: 'Flytedokk'
+    description: 'Flytedokk'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: flytedokk
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  forbudsomraade:
+    type: collection
+    title: 'Forbudsområde'
+    description: 'Forbudsområde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: forbudsomraade
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  forbudsomraadegrense:
+    type: collection
+    title: 'ForbudsområdeGrense'
+    description: 'ForbudsområdeGrense'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: forbudsomraadegrense
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  forbudstype:
+    type: collection
+    title: 'Forbudstype'
+    description: 'Forbudstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: forbudstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fortoeyningsinnretning:
+    type: collection
+    title: 'Fortøyningsinnretning'
+    description: 'Fortøyningsinnretning'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fortoeyningsinnretning
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  fortoeyningstype:
+    type: collection
+    title: 'Fortøyningstype'
+    description: 'Fortøyningstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: fortoeyningstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  forvaltningsomraade:
+    type: collection
+    title: 'Forvaltningsområde'
+    description: 'Forvaltningsområde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: forvaltningsomraade
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  frekvens:
+    type: collection
+    title: 'Frekvens'
+    description: 'Frekvens'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: frekvens
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  havneanlegg:
+    type: collection
+    title: 'Havneanlegg'
+    description: 'Havneanlegg'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: havneanlegg
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  havnegjerde:
+    type: collection
+    title: 'Havnegjerde'
+    description: 'Havnegjerde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: havnegjerde
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  havnegjerdeinngang:
+    type: collection
+    title: 'HavnegjerdeInngang'
+    description: 'HavnegjerdeInngang'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: havnegjerdeinngang
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  havneomraade:
+    type: collection
+    title: 'Havneområde'
+    description: 'Havneområde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: havneomraade
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  havnesensor:
+    type: collection
+    title: 'Havnesensor'
+    description: 'Havnesensor'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: havnesensor
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  hoeydereferanse:
+    type: collection
+    title: 'Høydereferanse'
+    description: 'Høydereferanse'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: hoeydereferanse
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  ispshavneanlegg:
+    type: collection
+    title: 'ISPSHavneanlegg'
+    description: 'ISPSHavneanlegg'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: ispshavneanlegg
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  identifikasjon:
+    type: collection
+    title: 'Identifikasjon'
+    description: 'Identifikasjon'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: identifikasjon
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kaidekketype:
+    type: collection
+    title: 'Kaidekketype'
+    description: 'Kaidekketype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kaidekketype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kaifront:
+    type: collection
+    title: 'Kaifront'
+    description: 'Kaifront'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kaifront
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kaifronttype:
+    type: collection
+    title: 'Kaifronttype'
+    description: 'Kaifronttype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kaifronttype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kaiomraade:
+    type: collection
+    title: 'Kaiområde'
+    description: 'Kaiområde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kaiomraade
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kaitype:
+    type: collection
+    title: 'Kaitype'
+    description: 'Kaitype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kaitype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kamera:
+    type: collection
+    title: 'Kamera'
+    description: 'Kamera'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kamera
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  kran:
+    type: collection
+    title: 'Kran'
+    description: 'Kran'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: kran
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  krantype:
+    type: collection
+    title: 'Krantype'
+    description: 'Krantype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: krantype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  lastbegrensningsomraade:
+    type: collection
+    title: 'Lastbegrensningsområde'
+    description: 'Lastbegrensningsområde'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: lastbegrensningsomraade
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  maaned:
+    type: collection
+    title: 'Måned'
+    description: 'Måned'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: maaned
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  periode:
+    type: collection
+    title: 'Periode'
+    description: 'Periode'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: periode
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  posisjonskvalitet:
+    type: collection
+    title: 'Posisjonskvalitet'
+    description: 'Posisjonskvalitet'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: posisjonskvalitet
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  sensortype:
+    type: collection
+    title: 'Sensortype'
+    description: 'Sensortype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: sensortype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  sikringstype:
+    type: collection
+    title: 'Sikringstype'
+    description: 'Sikringstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: sikringstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  slipp:
+    type: collection
+    title: 'Slipp'
+    description: 'Slipp'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: slipp
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  spenning:
+    type: collection
+    title: 'Spenning'
+    description: 'Spenning'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: spenning
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  status:
+    type: collection
+    title: 'Status'
+    description: 'Status'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: status
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  synbarhet:
+    type: collection
+    title: 'Synbarhet'
+    description: 'Synbarhet'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: synbarhet
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  tilgangstype:
+    type: collection
+    title: 'Tilgangstype'
+    description: 'Tilgangstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: tilgangstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  toalett:
+    type: collection
+    title: 'Toalett'
+    description: 'Toalett'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: toalett
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  toemmestasjon:
+    type: collection
+    title: 'Tømmestasjon'
+    description: 'Tømmestasjon'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: toemmestasjon
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  toerrdokk:
+    type: collection
+    title: 'Tørrdokk'
+    description: 'Tørrdokk'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: toerrdokk
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  vauttak:
+    type: collection
+    title: 'VAuttak'
+    description: 'VAuttak'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: vauttak
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  vauttakstype:
+    type: collection
+    title: 'VAuttakstype'
+    description: 'VAuttakstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: vauttakstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
+
+  aapningstype:
+    type: collection
+    title: 'Åpningstype'
+    description: 'Åpningstype'
+    providers:
+      - type: feature
+        name: postgresql_ext.PostgreSQLExtendedProvider
+        id_field: objid
+        table: aapningstype
+        fields:
+          objid:
+            title: 'Objekt ID'
+            description: 'løpende lokal identifikator for objektet.'
