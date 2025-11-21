@@ -9,7 +9,7 @@ on:
     inputs:
       config_path:
         description: Path to produktspesifikasjon config YAML
-        default: produktspesifikasjon/ps_havnedata/config.yml
+        default: produktspesifikasjon/admenheter/config.yml
         required: true
 
 jobs:
