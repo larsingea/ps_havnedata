@@ -3,3 +3,6 @@ ogc_feature_api: https://ogcapitest.kartverket.no/rest/services/havnedata3_0/col
 output_directory: produktspesifikasjon
 product_slug: havnedata
 updated: 2025-01-01
+xmi-model: https://sosi.geonorge.no/svn/SOSI/SOSI Del 3/Statens kartverk/Havnedata_testing.xml
+xmi-username: sosi
+xmi-password: sosi
