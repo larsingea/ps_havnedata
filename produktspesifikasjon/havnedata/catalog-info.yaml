@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: produktspesifikasjon_admenheter
+spec:
+  type: service
+  owner: standardisering
+  lifecycle: experimental
+  system: standardisering
